@@ -11,3 +11,6 @@ echo "Model"
 echo "====="
 dmidecode -t 1
 
+echo "Disks"
+echo "====="
+lsblk
