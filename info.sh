@@ -14,3 +14,4 @@ dmidecode -t 1
 echo "Disks"
 echo "====="
 lsblk
+lsblk -d -o name,rota
